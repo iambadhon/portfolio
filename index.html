@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badhon | Personal Portfolio Website</title>
+    <link rel="icon" href="images/icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".main_nav">
+    <!--nav section start-->
+    <nav class="navbar navbar-expand-lg navbar-light main_nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--nav section end-->
+
+    <!--banner section start-->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner_text">
+                        <h4>Hello, I'm</h4>
+                        <h1>Badhon</h1>
+                        <h3>A Creative <span class="typed"></span></h3>
+                    </div>
+                    <div class="banner_btn common_btn">
+                        <a href="#contact">Say Hello <i class="far fa-envelope"></i></a>
+                        <a href="#about">About Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner_img">
+                        <img src="images/banner.png" class="img-fluid" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--banner section end-->
+
+    <!--about section start-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about_img_main">
+                        <div class="about_img">
+                            <img src="images/about.jpg" class="img-fluid" alt="about">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_text">
+                        <h4>About Me</h4>
+                        <h2>I'm <span>Badhon</span></h2>
+                        <h2>Web <span>Degigner</span></h2>
+                        <h3>Based in Bangladesh</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet accusamus sapiente ad,
+                            repellendus impedit iste fugit facere</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur amet accusamus sapiente ad,
+                            repellendus impedit iste fugit facere ipsa veniam, repellendus impedit iste fugit facere
+                            ipsa veniam,</p>
+                        <div class="about_btn common_btn">
+                            <a href="https://t.ly/GD3q" target="_blank">Download CV <i
+                                    class="fas fa-long-arrow-alt-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section end-->
+
+    <!--skill section start-->
+    <section id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="skill_tittle text-center">
+                        <h4>My Skills</h4>
+                        <h2>You Can <span>Imagine</span></h2>
+                        <h2>I Can <span>Do</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, accusamus!
+                            placeat qui illum beatae, porro nam quis ipsa!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="skill_item">
+                        <svg class="radial-progress html" data-percentage="90" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                        </svg>
+                        <h3>HTML5</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="skill_item">
+                        <svg class="radial-progress css" data-percentage="85" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                        </svg>
+                        <h3>CSS/CSS3</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="skill_item">
+                        <svg class="radial-progress javascript" data-percentage="70" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                        </svg>
+                        <h3>javaScript</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="skill_item xs_mb">
+                        <svg class="radial-progress bootstrap" data-percentage="75" viewBox="0 0 80 80">
+                            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                            <circle class="complete" cx="40" cy="40" r="35"
+                                style="stroke-dashoffset: 39.58406743523136;">
+                            </circle>
+                            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                        </svg>
+                        <h3>bootstrap</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--skill section end-->
+
+    <!--service section start-->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="service_tittle text-center">
+                        <h4>What I Do</h4>
+                        <h2>My Services</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti atque, in iure
+                            nihil enim cumque? Voluptate libero</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service_prev_arrow">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="service_next_arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+            <div class="service_slider">
+                <div class="service_item">
+                    <div class="service_item_tittle">
+                        <h3>Web Design</h3>
+                    </div>
+                    <div class="service_item_round">
+                        <div class="service_item_round_img">
+                            <img src="images/service-icon1.png" alt="service">
+                        </div>
+                    </div>
+                    <div class="service_item_details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at aut molestiae? Reiciendis
+                            itaque nulla impedit voluptates maiores cupiditate distinctio eveniet labore, libero dolorum
+                            dolores, deleniti numquam delectus ipsam esse!</p>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="service_item_tittle">
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="service_item_round">
+                        <div class="service_item_round_img">
+                            <img src="images/service-icon2.png" alt="service">
+                        </div>
+                    </div>
+                    <div class="service_item_details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at aut molestiae? Reiciendis
+                            itaque nulla impedit voluptates maiores cupiditate distinctio eveniet labore, libero dolorum
+                            dolores, deleniti numquam delectus ipsam esse!</p>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="service_item_tittle">
+                        <h3>Graphic Design</h3>
+                    </div>
+                    <div class="service_item_round">
+                        <div class="service_item_round_img">
+                            <img src="images/service-icon3.png" alt="service">
+                        </div>
+                    </div>
+                    <div class="service_item_details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at aut molestiae? Reiciendis
+                            itaque nulla impedit voluptates maiores cupiditate distinctio eveniet labore, libero dolorum
+                            dolores, deleniti numquam delectus ipsam esse!</p>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="service_item_tittle">
+                        <h3>Photography</h3>
+                    </div>
+                    <div class="service_item_round">
+                        <div class="service_item_round_img">
+                            <img src="images/service-icon4.png" alt="service">
+                        </div>
+                    </div>
+                    <div class="service_item_details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at aut molestiae? Reiciendis
+                            itaque nulla impedit voluptates maiores cupiditate distinctio eveniet labore, libero dolorum
+                            dolores, deleniti numquam delectus ipsam esse!</p>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="service_item_tittle">
+                        <h3>SEO</h3>
+                    </div>
+                    <div class="service_item_round">
+                        <div class="service_item_round_img">
+                            <img src="images/service-icon5.png" alt="service">
+                        </div>
+                    </div>
+                    <div class="service_item_details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at aut molestiae? Reiciendis
+                            itaque nulla impedit voluptates maiores cupiditate distinctio eveniet labore, libero dolorum
+                            dolores, deleniti numquam delectus ipsam esse!</p>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="service_item_tittle">
+                        <h3>Digital Marketing</h3>
+                    </div>
+                    <div class="service_item_round">
+                        <div class="service_item_round_img">
+                            <img src="images/service-icon6.png" alt="service">
+                        </div>
+                    </div>
+                    <div class="service_item_details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at aut molestiae? Reiciendis
+                            itaque nulla impedit voluptates maiores cupiditate distinctio eveniet labore, libero dolorum
+                            dolores, deleniti numquam delectus ipsam esse!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--service section end-->
+
+    <!--portfolio section start-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="portfolio_tittle text-center">
+                        <h4>Selected works</h4>
+                        <h2>Check my <span>portfolio</span></h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti atque, in iure
+                            nihil enim cumque? Voluptate libero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="images/portfolio1.png" class="img-fluid" alt="portfolio item">
+                            <div class="portfolio_item_img_overlay">
+                                <a href="images/portfolio1.png" data-lightbox="image-1"><i
+                                        class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio_item_details">
+                            <h3>Hunt | Creative Designer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio ducimus
+                                ratione
+                                sequi odio. Perspiciatis nostrum dolorum, id illum beatae voluptatum rerum sunt
+                                laborum
+                                cupiditate molestias labore quibusdam porro blanditiis.</p>
+                        </div>
+                        <div class="portfolio_item_btn common_btn">
+                            <a href="https://iambadhon.github.io/hunt/" target="_blank">Live Demo <i
+                                    class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="images/portfolio2.png" class="img-fluid" alt="portfolio item">
+                            <div class="portfolio_item_img_overlay">
+                                <a href="images/portfolio2.png" data-lightbox="image-1"><i
+                                        class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio_item_details">
+                            <h3>Appon | Best App Landing page</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio ducimus
+                                ratione
+                                sequi odio. Perspiciatis nostrum dolorum, id illum beatae voluptatum rerum sunt laborum
+                                cupiditate molestias labore quibusdam porro blanditiis.</p>
+                        </div>
+                        <div class="portfolio_item_btn common_btn">
+                            <a href="https://iambadhon.github.io/appon/" target="_blank">Live Demo <i
+                                    class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="images/portfolio3.png" class="img-fluid" alt="portfolio item">
+                            <div class="portfolio_item_img_overlay">
+                                <a href="images/portfolio3.png" data-lightbox="image-1"><i
+                                        class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio_item_details">
+                            <h3>AppLab | best app for modern lifestyle</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio ducimus
+                                ratione
+                                sequi odio. Perspiciatis nostrum dolorum, id illum beatae voluptatum rerum sunt laborum
+                                cupiditate molestias labore quibusdam porro blanditiis.</p>
+                        </div>
+                        <div class="portfolio_item_btn common_btn">
+                            <a href="https://iambadhon.github.io/applab/" target="_blank">Live Demo <i
+                                    class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="images/portfolio4.png" class="img-fluid" alt="portfolio item">
+                            <div class="portfolio_item_img_overlay">
+                                <a href="images/portfolio4.png" data-lightbox="image-1"><i
+                                        class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio_item_details">
+                            <h3>Food Lover | Best Breakfast</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio ducimus ratione
+                                sequi odio. Perspiciatis nostrum dolorum, id illum beatae voluptatum rerum sunt laborum
+                                cupiditate molestias labore quibusdam porro blanditiis.</p>
+                        </div>
+                        <div class="portfolio_item_btn common_btn">
+                            <a href="https://iambadhon.github.io/breakfast/" target="_blank">Live Demo <i
+                                    class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_all_btn common_btn text-center">
+                    <a href="portfolio.html">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--portfolio section end-->
+
+    <!--price section start-->
+    <section id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="price_tittle text-center">
+                        <h4>Pricing</h4>
+                        <h2>My Service <span>Price</span></h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti atque, in iure
+                            nihil enim cumque? Voluptate libero</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="price_item text-center">
+                        <div class="price_item_head">
+                            <h3>Free Trial</h3>
+                        </div>
+                        <div class="price_item_img">
+                            <img src="images/price1.png" class="img-fluid" alt="price">
+                        </div>
+                        <div class="price_item_text">
+                            <div class="price_item_price">
+                                <h2>$ 0</h2>
+                                <span>.00</span>
+                            </div>
+                            <ul>
+                                <li>24/7 Full Support</li>
+                                <li>Miximum Revision</li>
+                                <li> All Type of Design</li>
+                                <li> X</li>
+                                <li> X</li>
+                            </ul>
+                        </div>
+                        <div class="price_item_btn common_btn">
+                            <a href="#">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="price_item text-center">
+                        <div class="price_item_head">
+                            <h3>Premium</h3>
+                        </div>
+                        <div class="price_item_img">
+                            <img src="images/price2.png" class="img-fluid" alt="price">
+                        </div>
+                        <div class="price_item_text">
+                            <div class="price_item_price">
+                                <h2>$ 10</h2>
+                                <span>.99</span>
+                            </div>
+                            <ul>
+                                <li>24/7 Full Support</li>
+                                <li>Miximum Revision</li>
+                                <li> All Type of Design</li>
+                                <li> X</li>
+                                <li> X</li>
+                            </ul>
+                        </div>
+                        <div class="price_item_btn common_btn">
+                            <a href="#">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="price_item text-center xs_mb">
+                        <div class="price_item_head">
+                            <h3>Standard</h3>
+                        </div>
+                        <div class="price_item_img">
+                            <img src="images/price3.png" class="img-fluid" alt="price">
+                        </div>
+                        <div class="price_item_text">
+                            <div class="price_item_price">
+                                <h2>$ 20</h2>
+                                <span>.99</span>
+                            </div>
+                            <ul>
+                                <li>24/7 Full Support</li>
+                                <li>Miximum Revision</li>
+                                <li> All Type of Design</li>
+                                <li> X</li>
+                                <li> X</li>
+                            </ul>
+                        </div>
+                        <div class="price_item_btn common_btn">
+                            <a href="#">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--price section end-->
+
+    <!--client section start-->
+    <section id="client">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="client_item text-center">
+                        <i class="fas fa-users"></i>
+                        <h2 class="counter">120</h2>
+                        <h3>Satisfied Clients</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="client_item text-center">
+                        <i class="fab fa-html5"></i>
+                        <h2 class="counter">350</h2>
+                        <h3>html template</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="client_item text-center">
+                        <i class="fab fa-js-square"></i>
+                        <h2 class="counter">260</h2>
+                        <h3>JavaScript Template</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="client_item text-center xs_mb">
+                        <i class="fas fa-star"></i>
+                        <h2 class="counter">5.00</h2>
+                        <h3>Clients Rating</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--client section end-->
+
+    <!--testimonial section start-->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="testimonial_img">
+                        <img src="images/testimonial-img.png" class="img-fluid" alt="testimonial">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial_main">
+                        <div class="row">
+                            <div class="col-lg-11 col-md-10 center_align">
+                                <div class="testimonial_tittle">
+                                    <h2>Meet Client Satisfaction by using product</h2>
+                                    <p>The rise of mobile devices transforms the way we consume. elevant
+                                        channels such as
+                                        Facebook.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial_prev">
+                            <i class="fas fa-long-arrow-alt-left"></i>
+                        </div>
+                        <div class="testimonial_next">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+
+                        <div class="testimonial_slider">
+                            <div class="testimonial_slider_item">
+                                <div class="testimonial_slider_item_text">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                    <h3>User friendly & Customizable</h3>
+                                    <p>Bring to the table win-win survival strategies to ensure
+                                        proactive domination. At
+                                        the
+                                        end of the day, going forward, a new normal that has evolved
+                                        from generation X
+                                        is on
+                                        the runway heading towards a streamlined cloud solution.
+                                        User generated content
+                                        in
+                                        real-time will have multiple touchpoints for offshoring.</p>
+                                </div>
+                                <div class="testimonial_slider_item_user">
+                                    <div class="testimonial_slider_item_user_img">
+                                        <img src="images/testimonial-user1.png" class="img-fluid"
+                                            alt="testimonial user">
+                                    </div>
+                                    <div class="testimonial_slider_item_user_name">
+                                        <h4>Zoltan Nemeth</h4>
+                                        <span>CEO of Pixler Lab</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial_slider_item">
+                                <div class="testimonial_slider_item_text">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half"></i></li>
+                                    </ul>
+                                    <h3>User friendly & Customizable</h3>
+                                    <p>Bring to the table win-win survival strategies to ensure
+                                        proactive domination. At
+                                        the
+                                        end of the day, going forward, a new normal that has evolved
+                                        from generation X
+                                        is on
+                                        the runway heading towards a streamlined cloud solution.
+                                        User generated content
+                                        in
+                                        real-time will have multiple touchpoints for offshoring.</p>
+                                </div>
+                                <div class="testimonial_slider_item_user">
+                                    <div class="testimonial_slider_item_user_img">
+                                        <img src="images/testimonial-user2.png" class="img-fluid"
+                                            alt="testimonial user">
+                                    </div>
+                                    <div class="testimonial_slider_item_user_name">
+                                        <h4>Cathy Rose</h4>
+                                        <span>CEO of upwork</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial_slider_item">
+                                <div class="testimonial_slider_item_text">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                    <h3>User friendly & Customizable</h3>
+                                    <p>Bring to the table win-win survival strategies to ensure
+                                        proactive domination. At
+                                        the
+                                        end of the day, going forward, a new normal that has evolved
+                                        from generation X
+                                        is on
+                                        the runway heading towards a streamlined cloud solution.
+                                        User generated content
+                                        in
+                                        real-time will have multiple touchpoints for offshoring.</p>
+                                </div>
+                                <div class="testimonial_slider_item_user">
+                                    <div class="testimonial_slider_item_user_img">
+                                        <img src="images/testimonial-user3.png" class="img-fluid"
+                                            alt="testimonial user">
+                                    </div>
+                                    <div class="testimonial_slider_item_user_name">
+                                        <h4>Nemeth thee</h4>
+                                        <span>CEO of Fiverr</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonial section end-->
+
+    <!--footer section start-->
+    <footer id="contact">
+        <div class="container">
+            <div class="row contact_main">
+                <div class="col-lg-4 col-md-6">
+                    <div class="get_touch">
+                        <h3>Get in Touch</h3>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-map-marker-alt"></i> 1802, Manikganj Sadar, Bangladesh.</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-envelope"></i> badhon17890@gmail.com</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-globe"></i> www.portflopersonal.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow_me">
+                        <h3>Follow Me</h3>
+                        <ul>
+                            <li><a href="https://facebook.com/iambadhon0" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/iambadhon0" target="_blank"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://linkedin.com/in/iambadhon0/" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/iambadhon" target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="message_me">
+                        <h3>Message Me</h3>
+                        <form action="https://formspree.io/f/xgedaejn" method="post">
+                            <div class="row">
+                                <div class="col-lg-6 name">
+                                    <input name="Name" type="text" required placeholder="Your Name">
+                                </div>
+                                <div class="col-lg-6 email">
+                                    <input name="E-mail" type="email" required placeholder="Your E-mail">
+                                </div>
+                                <div class="col-lg-12 message">
+                                    <textarea name="Message" required placeholder="Message"></textarea>
+                                    <button><i class="fas fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright_text text-center">
+                            <h5>&copy; Copyright 2022. All rights reserved by <a href="https://facebook.com/iambadhon0"
+                                    target="_blank">Toufiqul Islam Badhon</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer section end-->
+
+
+
+
+
+    <!--scroll top section start-->
+    <div class="scroll_top">
+        <i class="fas fa-sort-alpha-up"></i>
+    </div>
+    <!--scroll top section end-->
+
+    <!--jquery file linkup start-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!--jquery file linkup end-->
+</body>
+
+</html>
