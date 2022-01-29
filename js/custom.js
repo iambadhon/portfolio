@@ -131,17 +131,6 @@ $(function () {
   });
   //=====================counterup end=====================//
 
-
-
-
-
-
-
-
-
-
-
-
   //=====================smooth scroll start=====================//
   var html_body = $("html, body");
   $("nav a").on("click", function () {

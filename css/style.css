@@ -1,4 +1,4 @@
-/*=====================default css start=====================*/
+/*=====================common css start=====================*/
 * {
     margin: 0;
     padding: 0;
@@ -143,7 +143,7 @@ section {
     --tenth-color: #4a4a4a;
 }
 
-/*=====================default css end=====================*/
+/*=====================common css end=====================*/
 
 /*=====================nav section start=====================*/
 .main_nav {
@@ -434,7 +434,6 @@ section {
 #banner .banner_img {
     position: relative;
 }
-
 
 #banner .banner_img img {
     position: absolute;
@@ -1602,10 +1601,6 @@ section {
 }
 
 /*=====================footer section end=====================*/
-
-
-
-
 
 /*=====================scroll top section start=====================*/
 .scroll_top {
