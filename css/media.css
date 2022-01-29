@@ -68,12 +68,12 @@
 /*=====================lg device start=====================*/
 @media (min-width:992px) and (max-width:1199px) {
 
-    /*==default css start==*/
+    /*==common css start==*/
     h1 {
         margin-bottom: 15px;
     }
 
-    /*==default css end==*/
+    /*==common css end==*/
 
     /*==banner section start==*/
     #banner .banner_text h3 {
@@ -162,7 +162,7 @@
 /*=====================md device start=====================*/
 @media (min-width:768px) and (max-width:991px) {
 
-    /*==default css start==*/
+    /*==common css start==*/
     h1 {
         font-size: 65px;
         line-height: 70px;
@@ -173,7 +173,7 @@
         padding: 8px 20px;
     }
 
-    /*==default css end==*/
+    /*==common css end==*/
 
     /*==nav section start==*/
     .main_nav .menu {
@@ -206,7 +206,6 @@
 
     #banner .banner_text h3 {
         font-size: 18px;
-        font-weight: 700;
         line-height: 30px;
     }
 
@@ -302,19 +301,7 @@
 
     /*==service section start==*/
     #service::after {
-        position: absolute;
-        content: '';
-        top: 355px;
-        left: 50%;
-        width: 2px;
         height: 856px;
-        background: url(../images/serviceline.png);
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        z-index: -1;
     }
 
     #service .service_slider {
@@ -561,7 +548,6 @@
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
-        background: var(--first-color) !important;
     }
 
     #service .slick-center .service_item_details {
@@ -633,7 +619,7 @@
 /*=====================xs device start=====================*/
 @media (max-width:575px) {
 
-    /*==default css start==*/
+    /*==common css start==*/
     h1 {
         font-size: 70px;
         margin-bottom: 10px;
@@ -647,7 +633,7 @@
         padding: 8px 20px;
     }
 
-    /*==default css end==*/
+    /*==common css end==*/
 
     /*==nav section start==*/
     .main_nav .menu {
@@ -795,7 +781,6 @@
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
-        background: var(--first-color) !important;
     }
 
     #service .slick-center .service_item_details {
