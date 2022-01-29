@@ -9,16 +9,118 @@
 /*=====================xl device end=====================*/
 
 /*=====================lg device start=====================*/
-@media (min-width:992px) and (max-width:1199px) {}
+@media (min-width:992px) and (max-width:1199px) {
+
+    /*==default css start==*/
+    h1 {
+        margin-bottom: 15px;
+    }
+
+    /*==default css end==*/
+
+    /*==banner section start==*/
+    #banner .banner_text h3 {
+        font-size: 20px;
+    }
+
+    #banner .banner_text h3 span {
+        color: var(--sixth-color);
+        font-size: 32px;
+    }
+
+    #banner .banner_img img {
+        right: 70px;
+    }
+
+    #banner .banner_img::after {
+        top: 415px;
+    }
+
+    #banner .banner_img:hover img {
+        right: 40px;
+    }
+
+    #banner .banner_img:hover::after {
+        top: 390px;
+    }
+
+    /*==banner section end==*/
+
+    /*==about section start==*/
+    #about .about_img {
+        width: 350px;
+    }
+
+    #about .about_img_main::after {
+        width: 350px;
+        height: 410px;
+    }
+
+    #about .about_img_main::before {
+        bottom: -40px;
+        width: 170px;
+        height: 230px;
+    }
+
+    #about .about_img_main:hover::before {
+        bottom: 0px;
+    }
+
+    /*==about section end==*/
+
+    /*==service section start==*/
+    #service::after {
+        top: 370px;
+        height: 710px;
+    }
+
+    #service .service_slider {
+        padding: 50px 0;
+    }
+
+    #service .service_prev_arrow {
+        top: 330px;
+    }
+
+    #service .service_next_arrow {
+        bottom: 60px;
+    }
+
+    /*==service section end==*/
+
+    /*==portfolio section start==*/
+    #portfolio .portfolio_item .portfolio_item_img::before {
+        top: 102px;
+    }
+
+    #portfolio .portfolio_item .portfolio_item_img::after {
+        top: -267px;
+    }
+
+    /*==portfolio section end==*/
+}
 
 /*=====================lg device end=====================*/
 
 /*=====================md device start=====================*/
 @media (min-width:768px) and (max-width:991px) {
 
+    /*==default css start==*/
+    h1 {
+        font-size: 65px;
+        line-height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .common_btn a {
+        padding: 8px 20px;
+    }
+
+    /*==default css end==*/
+
     /*==nav section start==*/
     .main_nav .menu {
-        background: var(--sixteenth-color);
+        background: var(--fourth-color);
     }
 
     .main_nav .menu ul {
@@ -30,13 +132,236 @@
         margin: 2px 0;
     }
 
+    .main_nav .menu ul li a::after {
+        right: -100%;
+    }
+
+    .main_nav .menu ul li a::before {
+        left: -100%;
+    }
+
     /*==nav section end==*/
+
+    /*==banner section start==*/
+    #banner {
+        height: 600px;
+    }
+
+    #banner .banner_text h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    #banner .banner_text h3 span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #banner .banner_img::before {
+        top: 200px;
+        width: 130px;
+        height: 240px;
+    }
+
+    #banner .banner_img::after {
+        left: -40px;
+        width: 100px;
+        height: 140px;
+        border: 6px solid var(--first-color);
+    }
+
+    #banner .banner_img img {
+        right: 60px;
+        top: 125px;
+    }
+
+    #banner .banner_img:hover img {
+        right: 40px;
+    }
+
+    #banner .banner_img:hover::before {
+        top: 224px;
+    }
+
+    /*==banner section end==*/
+
+    /*==about section start==*/
+    #about .about_img_main::after {
+        top: 60px;
+        left: 50%;
+        width: 400px;
+        height: 460px;
+        transform: rotate(8deg) translate(-50%);
+        -webkit-transform: rotate(8deg) translate(-50%);
+        -moz-transform: rotate(8deg) translate(-50%);
+        -ms-transform: rotate(8deg) translate(-50%);
+        -o-transform: rotate(8deg) translate(-50%);
+    }
+
+    #about .about_img_main::before {
+        bottom: -50px;
+        left: 40px;
+    }
+
+    #about .about_img {
+        transform: rotate(-10deg) translate(-50%);
+        -webkit-transform: rotate(-10deg) translate(-50%);
+        -moz-transform: rotate(-10deg) translate(-50%);
+        -ms-transform: rotate(-10deg) translate(-50%);
+        -o-transform: rotate(-10deg) translate(-50%);
+        top: 0;
+        left: 50%;
+    }
+
+    #about .about_img_main:hover::after {
+        left: 52%;
+    }
+
+    #about .about_img_main:hover::before {
+        bottom: 0px;
+    }
+
+    #about .about_img_main:hover .about_img {
+        left: 48%;
+    }
+
+    #about .about_text {
+        margin-top: 80px;
+    }
+
+    /*==about section end==*/
+
+    /*==skill section start==*/
+    #skill .skill_item {
+        margin-bottom: 50px;
+    }
+
+    #skill .md_mb {
+        margin-bottom: 0;
+    }
+
+    /*==skill section end==*/
+
+    /*==service section start==*/
+    #service::after {
+        position: absolute;
+        content: '';
+        top: 355px;
+        left: 50%;
+        width: 2px;
+        height: 856px;
+        background: url(../images/serviceline.png);
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    #service .service_slider {
+        padding: 50px 0;
+    }
+
+    #service .service_item .service_item_round .service_item_round_img {
+        width: 65px;
+        height: 65px;
+    }
+
+    #service .service_item .service_item_round .service_item_round_img img {
+        width: 55%;
+    }
+
+    #service .service_item .service_item_details {
+        padding: 20px;
+    }
+
+    #service .service_next_arrow {
+        bottom: 60px;
+    }
+
+    /*==service section end==*/
+
+    /*==portfolio section start==*/
+    #portfolio .portfolio_item .portfolio_item_img::after {
+        top: -196px;
+    }
+
+    #portfolio .portfolio_item .portfolio_item_img::before {
+        top: 18px;
+    }
+
+    /*==portfolio section end==*/
+
+    /*==price section start==*/
+    #price .price_item_head {
+        height: 50px;
+    }
+
+    #price .price_item_head h3 {
+        line-height: 50px;
+        font-size: 22px;
+    }
+
+    #price .price_item_price {
+        padding-bottom: 18px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #price .price_item_price h2 {
+        font-size: 50px;
+    }
+
+    #price .price_item_text ul li {
+        line-height: 30px;
+    }
+
+    /*==price section end==*/
+
+    /*==client section start==*/
+    #client .client_item {
+        margin-bottom: 80px;
+    }
+
+    #client .md_mb {
+        margin-bottom: 0;
+    }
+
+    /*==client section end==*/
+
+    /*==testimonial section start==*/
+    #testimonial .testimonial_img {
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+
+    /*==testimonial section end==*/
+
+    /*==footer section start==*/
+    #contact .message_me .name {
+        margin-bottom: 15px;
+    }
+
+    #contact .message_me .message {
+        margin-top: 15px;
+    }
+
+    /*==footer section end==*/
 }
 
 /*=====================md device end=====================*/
 
 /*=====================sm device start=====================*/
 @media (min-width:576px) and (max-width:767px) {
+
+    /*==common css start==*/
+    .common_btn a {
+        padding: 8px 20px;
+    }
+
+    /*==common css end==*/
 
     /*==nav section start==*/
     .main_nav .menu {
@@ -254,11 +579,15 @@
     /*==default css start==*/
     h1 {
         font-size: 70px;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
 
     h2 {
         font-size: 36px;
+    }
+
+    .common_btn a {
+        padding: 8px 20px;
     }
 
     /*==default css end==*/
@@ -351,7 +680,7 @@
     }
 
     #service .service_prev_arrow {
-        top: 360px;
+        top: 330px;
     }
 
     #service .service_next_arrow {
@@ -421,11 +750,11 @@
 
     /*==portfolio section start==*/
     #portfolio .portfolio_item .portfolio_item_img::after {
-        top: -280px;
+        top: -260px;
     }
 
     #portfolio .portfolio_item .portfolio_item_img::before {
-        top: 120px;
+        top: 90px;
     }
 
     /*==portfolio section end==*/
@@ -459,11 +788,15 @@
     }
 
     #testimonial .testimonial_main .testimonial_prev {
-        display: none;
+        display: none !important;
     }
 
     #testimonial .testimonial_main .testimonial_next {
-        display: none;
+        display: none !important;
+    }
+
+    #testimonial .testimonial_main .testimonial_slider .testimonial_slider_item .testimonial_slider_item_user .testimonial_slider_item_user_name {
+        margin-left: 10px;
     }
 
     /*==testimonial section end==*/
@@ -479,6 +812,10 @@
 
     #contact .message_me .message {
         margin-top: 18px;
+    }
+
+    #contact .copyright .copyright_text h5 {
+        padding: 0 50px;
     }
 
     /*==footer section end==*/
