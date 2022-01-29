@@ -243,7 +243,7 @@ section {
 }
 
 .navbar .navbar-toggler {
-    padding: 2px 7px 4px 7px;
+    padding: .2rem .6rem .4rem .6rem;
     border-color: var(--sixth-color);
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -740,7 +740,7 @@ section {
 }
 
 #service .service_slider {
-    padding: 90px 0;
+    padding: 65px 0;
 }
 
 #service .service_item {
