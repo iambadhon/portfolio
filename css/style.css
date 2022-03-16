@@ -219,7 +219,7 @@ section {
 }
 
 .main_nav .menu ul li a.active::after {
-    right: 20px;
+    right: 10px;
 }
 
 .nav_sticky {
