@@ -143,6 +143,22 @@ section {
     --tenth-color: #4a4a4a;
 }
 
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--eighth-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--first-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--fourth-color);
+}
+
 /*=====================common css end=====================*/
 
 /*=====================nav section start=====================*/
@@ -243,7 +259,8 @@ section {
 }
 
 .navbar .navbar-toggler {
-    padding: .2rem .6rem .4rem .6rem;
+    padding: .4rem .55rem .4rem .5rem;
+    line-height: 0;
     border-color: var(--sixth-color);
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -280,9 +297,10 @@ section {
 
 .navbar .navbar-toggler-icon::after {
     top: 8px;
+    left: 3px;
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+/* .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -302,7 +320,7 @@ section {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-color: transparent;
-}
+} */
 
 /*=====================nav section end=====================*/
 

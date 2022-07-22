@@ -201,7 +201,11 @@
 
     /*==banner section start==*/
     #banner {
-        height: 600px;
+        height: 550px;
+    }
+
+    #banner .banner_text {
+        margin-top: 100px;
     }
 
     #banner .banner_text h3 {
@@ -215,7 +219,7 @@
     }
 
     #banner .banner_img::before {
-        top: 200px;
+        top: 150px;
         width: 130px;
         height: 240px;
     }
@@ -225,11 +229,12 @@
         width: 100px;
         height: 140px;
         border: 6px solid var(--first-color);
+        top: 310px;
     }
 
     #banner .banner_img img {
         right: 60px;
-        top: 125px;
+        top: 70px;
     }
 
     #banner .banner_img:hover img {
@@ -237,7 +242,11 @@
     }
 
     #banner .banner_img:hover::before {
-        top: 224px;
+        top: 200px;
+    }
+
+    #banner .banner_img:hover::after {
+        top: 280px;
     }
 
     /*==banner section end==*/
@@ -621,8 +630,8 @@
 
     /*==common css start==*/
     h1 {
-        font-size: 70px;
-        margin-bottom: 10px;
+        font-size: 60px;
+        margin-bottom: 0px;
     }
 
     h2 {
@@ -661,7 +670,11 @@
 
     /*==banner section start==*/
     #banner {
-        height: 650px;
+        height: 600px;
+    }
+
+    #banner .banner_text {
+        margin-top: 115px;
     }
 
     #banner .banner_text h3 {
